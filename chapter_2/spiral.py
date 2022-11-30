@@ -136,7 +136,7 @@ def saveDrawing():
     # hide turtle
     turtle.hideturtle()
     # generate unique file name
-    dateStr = (datetime.now()).strftime("%d%b%Y-%H%M%S")
+    dateStr = str(datetime.date.today())
     fileName = 'spiro-' + dateStr 
     print('saving drawing to %s.eps/png' % fileName)
     # get tkinter canvas
