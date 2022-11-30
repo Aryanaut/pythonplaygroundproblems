@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Major Version</key><integer>1</integer>
+	<key>Minor Version</key><integer>1</integer>
+	<key>Date</key><date>2022-11-11T16:01:50Z</date>
+	<key>Application Version</key><string>12.12.6.1</string>
+	<key>Features</key><integer>5</integer>
+	<key>Show Content Ratings</key><true/>
+	<key>Music Folder</key><string>file://localhost/C:/Users/aryan/Music/iTunes/iTunes%20Media/</string>
+	<key>Library Persistent ID</key><string>A034E76AD5D10EA0</string>
+	<key>Tracks</key>
+	<dict>
+		<key>193</key>
+		<dict>
+			<key>Track ID</key><integer>193</integer>
+			<key>Name</key><string>District 9</string>
+			<key>Artist</key><string>Clinton Shorter</string>
+			<key>Album Artist</key><string>Clinton Shorter</string>
+			<key>Album</key><string>District 9 (Original Motion Picture Soundtrack)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>13443020</integer>
+			<key>Total Time</key><integer>388477</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>2009</integer>
+			<key>Date Modified</key><date>2022-11-11T15:59:30Z</date>
+			<key>Date Added</key><date>2014-08-04T07:12:24Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2009-08-18T07:00:00Z</date>
+			<key>Normalization</key><integer>1325</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>District 9 (Original Motion Picture Soundtrack)</string>
+			<key>Sort Artist</key><string>Clinton Shorter</string>
+			<key>Sort Name</key><string>District 9</string>
+			<key>Persistent ID</key><string>07BE8B7F84691C6B</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/C:/Users/aryan/Music/iTunes/iTunes%20Media/Music/Clinton%20Shorter/District%209%20(Original%20Motion%20Picture%20Soun/01%20District%209.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>598</key>
+		<dict>
+			<key>Track ID</key><integer>598</integer>
+			<key>Name</key><string>Amreik</string>
+			<key>Artist</key><string>Eluvium</string>
+			<key>Album Artist</key><string>Eluvium</string>
+			<key>Album</key><string>Copia</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7210816</integer>
+			<key>Total Time</key><integer>198034</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2022-11-11T15:59:51Z</date>
+			<key>Date Added</key><date>2015-11-20T16:59:09Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2007-02-20T08:00:00Z</date>
+			<key>Normalization</key><integer>1904</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Copia</string>
+			<key>Sort Artist</key><string>Eluvium</string>
+			<key>Sort Name</key><string>Amreik</string>
+			<key>Persistent ID</key><string>757DFC28B6B17A0A</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/C:/Users/aryan/Music/iTunes/iTunes%20Media/Music/Eluvium/Copia/01%20Amreik.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>1201</key>
+		<dict>
+			<key>Track ID</key><integer>1201</integer>
+			<key>Name</key><string>Serbi Serbi</string>
+			<key>Artist</key><string>Khaled</string>
+			<key>Album Artist</key><string>Khaled</string>
+			<key>Composer</key><string>Khaled Hadj Brahim</string>
+			<key>Album</key><string>N'Ssi N'Ssi</string>
+			<key>Genre</key><string>Worldwide</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>13302779</integer>
+			<key>Total Time</key><integer>384400</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>11</integer>
+			<key>Year</key><integer>1993</integer>
+			<key>Date Modified</key><date>2022-11-11T16:00:20Z</date>
+			<key>Date Added</key><date>2014-08-01T09:14:10Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>1993-09-13T12:00:00Z</date>
+			<key>Normalization</key><integer>2558</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>N'Ssi N'Ssi</string>
+			<key>Sort Artist</key><string>Khaled</string>
+			<key>Sort Name</key><string>Serbi Serbi</string>
+			<key>Persistent ID</key><string>912C03893570CACF</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/C:/Users/aryan/Music/iTunes/iTunes%20Media/Music/Khaled/N'Ssi%20N'Ssi/01%20Serbi%20Serbi.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>2020</key>
+		<dict>
+			<key>Track ID</key><integer>2020</integer>
+			<key>Name</key><string>Space Oddity (feat. Kristen Wiig) [Mitty Mix]</string>
+			<key>Artist</key><string>David Bowie</string>
+			<key>Album Artist</key><string>Various Artists</string>
+			<key>Composer</key><string>David Bowie</string>
+			<key>Album</key><string>The Secret Life of Walter Mitty (Music From and Inspired By the Motion Picture)</string>
+			<key>Genre</key><string>Soundtrack</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>12006130</integer>
+			<key>Total Time</key><integer>311053</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>10</integer>
+			<key>Track Count</key><integer>12</integer>
+			<key>Year</key><integer>2013</integer>
+			<key>Date Modified</key><date>2022-11-11T16:01:04Z</date>
+			<key>Date Added</key><date>2014-12-03T15:02:55Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2013-12-17T12:00:00Z</date>
+			<key>Normalization</key><integer>3401</integer>
+			<key>Compilation</key><true/>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Secret Life of Walter Mitty (Music From and Inspired By the Motion Picture)</string>
+			<key>Sort Artist</key><string>David Bowie</string>
+			<key>Sort Name</key><string>Space Oddity (feat. Kristen Wiig) [Mitty Mix]</string>
+			<key>Persistent ID</key><string>D9AA0D87845DB9E9</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/C:/Users/aryan/Music/iTunes/iTunes%20Media/Music/Compilations/The%20Secret%20Life%20of%20Walter%20Mitty%20(Music%20F/10%20Space%20Oddity%20(feat.%20Kristen%20Wiig).m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>2506</key>
+		<dict>
+			<key>Track ID</key><integer>2506</integer>
+			<key>Name</key><string>Leave Out All the Rest</string>
+			<key>Artist</key><string>LINKIN PARK</string>
+			<key>Album Artist</key><string>LINKIN PARK</string>
+			<key>Composer</key><string>Brad Delson, Chester Charles Bennington, David Michael Farrell, Joseph Hahn, Michael Kenji Shinoda &#38; Robert Gregory Bourdon</string>
+			<key>Album</key><string>Minutes to Midnight (Deluxe Edition)</string>
+			<key>Genre</key><string>Hard Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>7570687</integer>
+			<key>Total Time</key><integer>209390</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>3</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>2007</integer>
+			<key>Date Modified</key><date>2022-11-11T16:00:43Z</date>
+			<key>Date Added</key><date>2015-05-25T07:42:48Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>2007-05-14T12:00:00Z</date>
+			<key>Normalization</key><integer>5960</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Minutes to Midnight (Deluxe Edition)</string>
+			<key>Sort Artist</key><string>LINKIN PARK</string>
+			<key>Sort Name</key><string>Leave Out All the Rest</string>
+			<key>Persistent ID</key><string>82A7ECEDCA2BE6AD</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/C:/Users/aryan/Music/iTunes/iTunes%20Media/Music/LINKIN%20PARK/Minutes%20to%20Midnight%20(Deluxe%20Edition)/03%20Leave%20Out%20All%20the%20Rest.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+		<key>2647</key>
+		<dict>
+			<key>Track ID</key><integer>2647</integer>
+			<key>Name</key><string>Bitter Sweet Symphony</string>
+			<key>Artist</key><string>The Verve</string>
+			<key>Album Artist</key><string>The Verve</string>
+			<key>Album</key><string>Urban Hymns</string>
+			<key>Genre</key><string>Rock</string>
+			<key>Kind</key><string>Purchased AAC audio file</string>
+			<key>Size</key><integer>13107053</integer>
+			<key>Total Time</key><integer>358426</integer>
+			<key>Disc Number</key><integer>1</integer>
+			<key>Disc Count</key><integer>1</integer>
+			<key>Track Number</key><integer>1</integer>
+			<key>Track Count</key><integer>14</integer>
+			<key>Year</key><integer>1997</integer>
+			<key>Date Modified</key><date>2022-11-11T16:01:21Z</date>
+			<key>Date Added</key><date>2014-08-26T07:41:03Z</date>
+			<key>Bit Rate</key><integer>256</integer>
+			<key>Sample Rate</key><integer>44100</integer>
+			<key>Release Date</key><date>1997-06-01T07:00:00Z</date>
+			<key>Normalization</key><integer>4117</integer>
+			<key>Artwork Count</key><integer>1</integer>
+			<key>Sort Album</key><string>Urban Hymns</string>
+			<key>Sort Album Artist</key><string>Verve</string>
+			<key>Sort Artist</key><string>Verve</string>
+			<key>Sort Name</key><string>Bitter Sweet Symphony</string>
+			<key>Persistent ID</key><string>C7ACA4CBF5D44668</string>
+			<key>Track Type</key><string>File</string>
+			<key>Purchased</key><true/>
+			<key>Location</key><string>file://localhost/C:/Users/aryan/Music/iTunes/iTunes%20Media/Music/The%20Verve/Urban%20Hymns/01%20Bitter%20Sweet%20Symphony.m4a</string>
+			<key>File Folder Count</key><integer>5</integer>
+			<key>Library Folder Count</key><integer>1</integer>
+		</dict>
+	</dict>
+	<key>Playlists</key>
+	<array>
+		<dict>
+			<key>Name</key><string>ppTest</string>
+			<key>Description</key><string></string>
+			<key>Playlist ID</key><integer>4215</integer>
+			<key>Playlist Persistent ID</key><string>1BA3974DC1D9BCA6</string>
+			<key>All Items</key><true/>
+			<key>Playlist Items</key>
+			<array>
+				<dict>
+					<key>Track ID</key><integer>193</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>598</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>1201</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>1201</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>2506</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>2020</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>2647</integer>
+				</dict>
+				<dict>
+					<key>Track ID</key><integer>2647</integer>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
