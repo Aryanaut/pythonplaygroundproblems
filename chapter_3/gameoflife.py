@@ -68,7 +68,7 @@ def update(frameNum, img, grid, N):
 def main():
     parser = argparse.ArgumentParser(description="Runs Conway's Game of Life")
     parser.add_argument("--grid-size", dest='N', required=False)
-    parser.add_argument("--mov-file", dest='movfile', required=False)
+    parser.add_argument("--gif-file", dest='giffile', required=False)
     parser.add_argument("--interval", dest='interval', required=False)
     parser.add_argument("--glider", action='store_true', required=False)
     parser.add_argument("--gosper", action='store_true', required=False)
@@ -104,12 +104,13 @@ def main():
     fig, ax = plt.subplots()
     img = ax.imshow(grid, interpolation="nearest")
     ani = animation.FuncAnimation(fig, update, fargs=(img, grid, N, ),
-                                    frames=10,
+                                    frames=600,
                                     interval=updateInterval,
-                                    save_count=50)
+                                    save_count=600)
 
-    if args.movfile:
-        ani.save(args.movfile, fps=30, extra_args=['-vcodec', 'libx264'])
+    if args.giffile:
+        writer = animation.PillowWriter(fps=60)
+        ani.save(args.movfile, writer=writer)
 
     plt.show()
 
