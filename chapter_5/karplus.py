@@ -6,10 +6,32 @@ import argparse, pygame, os, sys
 import matplotlib.pyplot as plt
 import time
 
+"""
+Experiments from Python Playground:
+
+1. Use the techniques you learned in this chapter to create a method that replicates the sound of two strings of different frequencies vibrating together. Remember, the Karplus-Strong algorithm produces sound amplitudes that can be added together (before scaling to 16-bit values for WAV file creation). Now add a time delay between the first and second string plucks.
+
+2. Write a method to read music from a text file and generate musical notes. Then play the music using these notes. You can use a format where the note names are followed by integer rest time intervals, like this: C4 1 F4 2 G4 1 . . . .
+
+3. Add a --piano command line option to the project. When the project is run with this option, the user should be able to press the A, S, D, F, and G keys on a keyboard to play the five musical notes. (Hint: use pygame.event.get and pygame.event.type.)
+
+"""
+
+# Notes used in Annihilation
 pmNotes = {'E3':164, 'F3':174, 'G3':196, 'A3':220, 'B3':246, 'C4': 262, 'D4':293, 'Eb4': 311, 'F4': 349, 'G4':391, 'Bb4':466}
+
+# G-major Scale
 pmNotesG = {'G4':392, 'A4':440, 'B4':493, 'C5':523, 'D5':587, 'E5':659, 'F5#':739, 'G5':783}
+
+# Minor Pentatonic Scale
 peNotes = {'C4': 262, 'Eb': 311, 'F': 349, 'G':391, 'Bb':466}
 gShowPlot = False
+
+chords = {
+    'G':['G4', 'B4', 'D5'],
+    'A':['A4', 'C5', 'E5'],
+    'C':['C5', 'E5', 'G5']
+}
 
 pygame.init()
 
@@ -70,6 +92,7 @@ def generate_double_note(freq1, freq2):
                 plt.draw()
 
     netSamples = np.add(samples1, samples2)
+    netSamples = np.array(netSamples*32767, 'int16')
     return netSamples
 
 def writeWAVE(fname, data):
@@ -184,7 +207,7 @@ def main():
         for name, freq in list(pmNotesG.items()):
             filename = name + ".wav"
             if not os.path.exists(filename) or args.display:
-                data = generate_double_note(freq, freq+26)
+                data = generate_double_note(freq, freq)
                 print('creating' + filename + ' ...')
                 writeWAVE(filename, data)
             else:
