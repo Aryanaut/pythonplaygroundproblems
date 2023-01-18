@@ -77,20 +77,49 @@ def getFilenames(dir):
 
 def create_grid(images, dimensions):
     m, n = dimensions
+    top = 2
+    left = 2
+    right = 2
+    bottom = 2
 
     assert m*n == len(images)
 
     width = max([img.size[0] for img in images])
     height = max([img.size[1] for img in images])
 
-    grid_img = Image.new('RGB', (n*width, height*m))
+    grid_img = Image.new('RGB', (n*width + 2, height*m + 2), color=(0, 0, 0))
 
     for index in range(len(images)):
         row = int(index/n)
         col = index - n*row
-        grid_img.paste(images[index], (col*width, row*height))
+        tile = images[index]
+        tilew, tileh = tile.size
+        tilepad = Image.new('RGB', (tileh + 1, tilew + 1), color=(0, 0, 0))
+        tilepad.paste(tile, (1, 1))
+        grid_img.paste(tilepad, (col*width + left, row*height + top))
 
     return grid_img
+
+def create_blocky(target, grid_size, reuse=False):
+    targets = splitImg(target, grid_size)
+    targetcopy = targets.copy()
+
+    output = []
+    count = 0
+    batch_size = int(len(targets)/10)
+
+    for img in targetcopy:
+        avg = getAvRGB(img)
+        block = Image.new('RGB', (grid_size), color=(int(avg[0]), int(avg[1]), int(avg[2])))
+        output.append(block)
+
+        if count > 0 and batch_size > 0 and count % batch_size == 0:
+            print("processed %d of %d..." % (count, len(targets)))
+
+    print('creating mosaic...')
+    mosaic = create_grid(output, grid_size)
+    return mosaic
+
 
 def create_mosaic(target, input_images, grid_size, reuse=False):
 
@@ -135,6 +164,7 @@ def main():
     parser.add_argument('--reuse-images', dest='reuse_images', required=False)
     parser.add_argument('--grid-size', nargs=2, dest='grid_size', required=True)
     parser.add_argument('--output-file', dest='outfile', required=False)
+    parser.add_argument('--create-blocky', dest='blocky', required=False)
     args = parser.parse_args()
 
     target = Image.open(args.target_image)
@@ -168,8 +198,12 @@ def main():
 
     print("Creating Mosaic...")
 
-    mosaic = create_mosaic(target, input_images, grid_size, reuse_images)
-    mosaic.save(output_filename, "PNG")
+    if args.blocky:
+        blocky = create_blocky(target, grid_size, reuse_images)
+        blocky.save(output_filename, "PNG")
+    else:
+        mosaic = create_mosaic(target, input_images, grid_size, reuse_images)
+        mosaic.save(output_filename, "PNG")
     print('done.')
 
 if __name__ == '__main__':
