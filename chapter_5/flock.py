@@ -110,6 +110,7 @@ def main():
     parser = argparse.ArgumentParser(description="Reynold's Boids")
     parser.add_argument("--num-boids", dest="N", required=False)
     parser.add_argument("--obstacle", nargs='+', type=int, dest="obs")
+    parser.add_argument("--savefile", dest="filename", required=False)
     args = parser.parse_args()
 
     N = 100
@@ -127,13 +128,18 @@ def main():
 
     pts, = ax.plot([], [], markersize=10, c='k', marker='o', ls='None')
     beak, = ax.plot([], [], markersize=4, c='r', marker='o', ls='None')
-    obstacle = plt.Circle((obs[0], obs[1]), radius=obs[2])
-    ax.add_artist(obstacle)
-    anim = animation.FuncAnimation(fig, tick, fargs=(pts, beak, boids), interval=10)
+    # obstacle = plt.Circle((obs[0], obs[1]), radius=obs[2])
+    # ax.add_artist(obstacle)
+    anim = animation.FuncAnimation(fig, tick, fargs=(pts, beak, boids), interval=10, blit=True, frames=600)
+    
 
     cid = fig.canvas.mpl_connect('button_press_event', boids.buttonpress)
-
+    
     plt.show()
+
+    if args.filename:
+        writer = animation.FFMpegWriter(fps=60)
+        anim.save(args.filename, writer=writer)
 
 if __name__ == '__main__':
     main()
